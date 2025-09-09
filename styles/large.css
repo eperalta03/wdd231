@@ -42,7 +42,12 @@
         grid-column: 1/4;
     }
 
-    .all, .wdd {
+    .buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .courses {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }

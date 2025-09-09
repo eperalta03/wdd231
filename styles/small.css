@@ -102,36 +102,42 @@ h2 {
    align-items: center;
 }
 
-.certificate a{
-    text-decoration: none;
+.certificate button{
     color: black;
-    margin: 8px 10px 2px ;
+    margin: 2px 10px 2px ;
     text-align: center;
-    padding: 6px;
-    background-color: #EDF6F9;
-    border:#006D77 solid 1.2px;
+    padding: 8px;
+    background-color: rgba(131, 197, 190, .5);
+    border:#006D77 solid 2px;
+    cursor: pointer;
+    border-radius: 8px;
 }
 
-.certificate a:hover{
+.certificate button:hover{
     background-color: #FFDDD2;
 }
-.all {
+
+.certificate p{
+    text-align: center;
+}
+.buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
 }
-
-.all a{
-    border-radius: 8px;
-    border:#006D77 solid 1.5px;
-}
-
-.wdd {
+.courses {
     display: grid;
     grid-template-columns: 1fr;
 }
-.certificate p{
-    text-align: center;
+.card {
+    background-color: #EDF6F9;
+    border:#006D77 solid 1.5px;
+    margin: 5px 10px;
+    border-radius: 5px;
+}
+
+.card.incomplete {
+  border: 1.5px solid #E29578;
+  background-color: #FFDDD2;
 }
 
 footer {
