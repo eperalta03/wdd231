@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Eduardo Peralta WDD 231 – Web Frontend Development I" />
+    <meta name="author" content="Eduardo Peralta" />
+    <title>Eduardo Peralta Home Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/home.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/home.svg" alt="logo" width="512" height="512">
+        <span>Eduardo Peralta</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hi, my name is Eduardo Peralta and I am from Coahuila, Mexico. I am 21 years old. I just returned from my mission a few months ago. I enjoy watching sports, specially basketball and baseball. Also I like to play piano and the guitar. I´m very excited for this new block and develop new programming skils</p>
+        </section>
+        <section class="photo">
+            <h2>Student Photo</h2>
+            <img src="images/profile.jpg" alt="Student Photo" width="200">
+        </section>
+        <section class="certificate">
+            <h2>Web Certificate Courses</h2>
+            <div class="all">
+                <a href="#"><strong>All</strong></a>
+                <a href="#"><strong>CSE</strong></a>
+                <a href="#"><strong>WDD</strong></a>
+            </div>
+            <div class="wdd">
+                <a href="#">WDD130</a>
+                <a href="#">WDD131</a>
+                <a href="#">WDD231</a>
+            </div>
+            <p>The total credits for course listed above is 6</p>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/eperalta03" target="_blank"><img src="images/github.svg" alt="Github Icon" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/"><img src="images/linkedin-circle.svg" alt="Linkedin Icon"  width="16" height="16"></a>
+            <a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="Facebook Icon" width="16" height="16"></a>
+        </div>
+        <div class="javascript">
+            <p>©<span id="currentyear"></span> Eduardo Peralta. Coahuila, Mexico.</p>
+            <p id="lastModified"></p>
+        </div>      
+    </footer>
+</body>
+</html>
