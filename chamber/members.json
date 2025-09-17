@@ -1,0 +1,105 @@
+{ "members":
+    [
+      {
+          "name": "Grupo Lala",
+          "industry": "Dairy Products",
+          "address": "Blvd. Torreón-Matamoros 756, Torreón, Coah.",
+          "phone": "+52 871 705 1520",
+          "website": "https://www.lala.com.mx",
+          "membership": "Gold",
+          "notes": "Large dairy producer; multinational; founded 1949; ~10,000 employees (national).",
+          "logo": "https://www.lala.com.mx/storage/app/media/LogotipoEvolucion/2001.png",
+          "email": "contacto@grupolala.com"
+      },
+      {
+          "name": "Peñoles",
+          "industry": "Mining and Metallurgy",
+          "address": "Av. Industria S/N, Torreón, Coah.",
+          "phone": "+52 871 729 6500",
+          "website": "https://www.penoles.com.mx",
+          "membership": "Gold",
+          "notes": "Major mining company with regional operations; founded 1887; heavy industry.",
+          "logo": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1451135227/pnqx710xwlvvg8zxh83z.png",
+          "email": "info@penoles.com"
+      },
+      {
+          "name": "Soriana",
+          "industry": "Retail",
+          "address": "Carretera Torreón-San Pedro Km. 7.5, Torreón, Coah.",
+          "phone": "+52 871 729 4000",
+          "website": "https://www.soriana.com",
+          "membership": "Silver",
+          "notes": "National supermarket chain with regional distribution centers.",
+          "logo": "https://rastrearpaquete.com.mx/wp-content/uploads/2023/06/soriana-icon.png",
+          "email": "atencion@soriana.com"
+      },
+      {
+          "name": "Grupo SIMSA",
+          "industry": "Energy and Gas",
+          "address": "Blvd. Independencia 1300, Torreón, Coah.",
+          "phone": "+52 871 720 6000",
+          "website": "https://www.simsa.com.mx",
+          "membership": "Gold",
+          "notes": "Energy & industrial services; fuel distribution and logistics.",
+          "logo": "https://www.pmsolucionesempresariales.com/img/Simsa.png",
+          "email": "contact@simsa.com"
+      },
+      {
+          "name": "Grupo Modelo",
+          "industry": "Beverages",
+          "address": "Zona Industrial, Torreón, Coah.",
+          "phone": "+52 871 750 3000",
+          "website": "https://www.grupomodelo.com",
+          "membership": "Silver",
+          "notes": "Regional brewing/production facilities (Grupo Modelo distribution).",
+          "logo": "https://www.grupomodelo.com/sites/g/files/seuoyk516/files/logo_grupo_modelo_2.png",
+          "email": "info@grupomodelo.com"
+      },
+      {
+          "name": "Grupo Chilchota",
+          "industry": "Food Processing",
+          "address": "Carretera Torreón-Matamoros Km 4, Torreón, Coah.",
+          "phone": "+52 871 750 2000",
+          "website": "https://www.chilchota.com",
+          "membership": "Silver",
+          "notes": "Regional food producer (dairy/meats); importante empleador local.",
+          "logo": "https://www.reddefrios.com.mx/wp-content/uploads/2016/02/4.png",
+          "email": "contacto@chilchota.com"
+      },
+      {
+          "name": "Multimedios Laguna",
+          "industry": "Media and Broadcasting",
+          "address": "Blvd. Independencia 1230, Torreón, Coah.",
+          "phone": "+52 871 720 0200",
+          "website": "https://www.multimedios.com",
+          "membership": "Bronze",
+          "notes": "Regional media: radio, TV, and press; a good ally for event dissemination.",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Multimedios_CR_44_logo.svg/2156px-Multimedios_CR_44_logo.svg.png",
+          "email": "info@multimedios.com"
+      },
+      {
+          "name": "Hospital Ángeles",
+          "industry": "Healthcare",
+          "address": "Blvd. Independencia 1300 Ote., Torreón, Coah.",
+          "phone": "+52 871 729 3300",
+          "website": "https://hospitalesangeles.com",
+          "membership": "Gold",
+          "notes": "Private referral hospital; medical services and specialties.",
+          "logo": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/cowq7gryklbyxobnuoio",
+          "email": "contacto@hospitalangeles.com"
+      },
+      {
+          "name": "Dina Camiones",
+          "industry": "Bus & Truck Manufacturing",
+          "address": "Carretera Torreón-Matamoros Km. 7, Torreón, Coah.",
+          "phone": "+52 871 729 1200",
+          "website": "https://www.dina.com.mx",
+          "membership": "Silver",
+          "notes": "Mexican bus and truck manufacturer with operations in Torreón.",
+          "logo": "https://download.logo.wine/logo/DINA_S.A./DINA_S.A.-Logo.wine.png",
+          "email": "info@dinacamiones.com"
+      }
+      ]
+}  
+
+ 

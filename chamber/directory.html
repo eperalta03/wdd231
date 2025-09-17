@@ -11,8 +11,95 @@
     <meta propert="og:title" content="Chamber Directory">
     <meta property="og:image" content="https://www.flaticon.com/free-icon-font/chess-rook-alt_6627996?term=tower&related_id=6627996">
     <meta property="og:url" content="https://eperalta03.github.io/wdd231/chamber/directory">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/directory.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <img src="images/logo.svg" alt="Logo" width="512" height="512" loading="lazy">
+        <span>Torreon Chamber of Comerce</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+    <nav id="nav" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="hero">
+            <img src="images/banner.jpg" alt="Banner" loading="lazy">
+            <button>Keynote Tickets</button>
+        </section>
+        <h1>Home</h1>
+        <div class="dashboard">
+            <section id="events" class="card1">
+                <h2>Events</h2>
+                <div class="div">
+                    <p></p>
+                </div>
+            </section>
+            <section id="weather" class="card1">
+                <h2>Current Weather</h2>
+                <div class="div">
+                    <div class="cloud">
+                        <img src="images/cloudy.png" alt="Weather icon" loading="lazy">
+                    </div>
+                    <div>
+                        <ul>
+                            <li><strong>75°</strong> F</li>
+                            <li>Party cloudy</li>
+                            <li>High: 85°</li>
+                            <li>Low: 52°</li>
+                            <li>Humidity: 34%</li>
+                            <li>Sunrise: 7:30am</li>
+                            <li>Sunset: 9:59pm</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="card1" id="forecast">
+                <h2>Weather Forecast</h2>
+                <div class="div">
+                    <ul>
+                        <li>Today: <strong>90°F</strong></li>
+                        <li>Wednesday: <strong>89°F</strong></li>
+                        <li>Thursday: <strong>68°F</strong></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="menu">
+            <button id="grid"><img src="images/grid.svg" alt="" width="22px" height="22px"></button>
+            <button id="list"> <img src="images/rectangle-list.svg" alt="" width="22px" height="22px"></button>
+        </div>
+        <section class="members" id="members">
+
+        </section>
+    </main>
+    <footer>
+        <section class="contact"> 
+                <p><strong>Torreon Chamber of Comerce</strong></p>
+                <p>Lorem ipsum dolor sit.</p>
+                <p>Lorem ipsum dolor sit.</p>
+                <p>info@torreoncc.org</p>
+                <p>(871) 555-2300</p>
+        </section>
+        <section class="media">
+            <a href=""><img src="images/github.svg" alt="Github"></a>
+            <a href=""><img src="images/linkedin-circle.svg" alt="Linkedin"></a>
+            <a href=""><img src="images/facebook.svg" alt="Facebook"></a>
+        </section>
+        <section class="author">
+            <p>WDD321 Class Project</p>
+            <p>Eduardo Peralta</p>
+            <p>© <span id="currentyear"></span> Torreon Chamber of Comerce</p>
+            <p id="lastModified"></p>
+        </section>
+    </footer>
 </body>
 </html>
