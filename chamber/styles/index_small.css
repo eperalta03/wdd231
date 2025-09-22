@@ -223,6 +223,7 @@ h1{
     display: grid;
     grid-template-columns: 40% 60%; 
     width: 350px;
+    height: 250px;
     margin: 20px 10px;
     background-color: rgba(224, 225, 221, .5);
     border-radius: 8px;
