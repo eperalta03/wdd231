@@ -153,9 +153,14 @@ function displayResults(data) {
 
     currentTemp.appendChild(temp);
 
-    const iconsrc = ` https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
-    weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', data.weather[0].description);
+    
+    const icon = document.createElement("img")
+    const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
+    icon.setAttribute('src', iconsrc);
+    icon.setAttribute('alt', data.weather[0].description);
+    icon.setAttribute('loading', "lazy");
+
+    weatherIcon.appendChild(icon);
 }
 
 async function fetchForecast() {
