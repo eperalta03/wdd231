@@ -16,31 +16,44 @@
         display: flex;
     }
 
+
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         column-gap: 10px;
     }
 
+    .hero {
+        grid-column: 1/5;
+    }
+
     h1 {
         grid-column: 1/5;
+    }
+
+    .dashboard {
+        grid-column: 1/5;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr; 
+        gap: 20px;
+        align-items: stretch; 
+    }
+
+    .dashboard section {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .dashboard section div {
+        flex: 1; 
+        padding: 10px;
     }
     
     .members {
         grid-column: 1/5;
     }
 
-    .members.list .card-container {
-        width: 70%; 
-        display: grid !important;
-        grid-template-columns: 1fr 2fr 2fr;
-    }
-
-    .members.list .info-container p {
-        display: block;
-        margin: 0;
-        color: #1B263B;
-    }
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

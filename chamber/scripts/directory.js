@@ -17,8 +17,6 @@ const cards = document.querySelector("#members");
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 
-
-
 gridbutton.addEventListener("click", () => {
 	
 	cards.classList.add("grid");
