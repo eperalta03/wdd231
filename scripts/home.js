@@ -12,6 +12,26 @@ yearSpan.textContent = new Date().getFullYear();
 const lastModifiedEl = document.getElementById('lastModified');
 lastModifiedEl.textContent = `Last modified: ${document.lastModified}`;
 
+const courseDetails = document.querySelector("#course-details");
+function DisplayCourseDetails(course){
+    courseDetails.innerHTML = "";
+    courseDetails.innerHTML= `
+        <button id="closeModal">❌</button>
+        <h2>${course.subject} ${course.number}</h2>
+        <h3>${course.title}</h3>
+        <p><strong>Credits</strong>: ${course.credits}</p>
+        <p><strong>Certificate</strong>: ${course.certificate}</p>
+        <p>${course.description}</p>
+        <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+    `;
+    courseDetails.showModal();
+    
+    const closeModal = document.querySelector("#closeModal");
+    closeModal.addEventListener("click", () => {
+        courseDetails.close();
+  });
+}
+
 const courses = [
     {
         subject: 'CSE',
@@ -136,10 +156,16 @@ function createCertificateCard(courses){
     </div>
      `;
      container.appendChild(card);
+     card.addEventListener('click', () => {
+        DisplayCourseDetails(course);
+    });
     });
 
     const totalCredits = courses.reduce((sum, course) => sum + course.credits, 0);
     totalCreditsEl.textContent = `The total credits for course listed above is ${totalCredits}`;
+
+    
+
 }
 
 createCertificateCard(courses)

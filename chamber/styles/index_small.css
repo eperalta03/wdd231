@@ -82,7 +82,7 @@ header span {
 }
 
 .navigation li.current {
-    text-decoration: underline;
+    border-bottom: #1B263B 3px solid;
 }
 
 .navigation a:hover{

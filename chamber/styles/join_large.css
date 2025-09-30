@@ -1,0 +1,36 @@
+@media only screen and (min-width: 769px) {
+    header, main, nav, footer {
+        margin: 0 auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        
+    }
+
+    .navigation ul{
+        display: flex;
+    }
+
+
+    
+
+    h1 {
+        grid-column: 1/3;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .media img {
+        width: 38px;
+        height: 38px;
+        margin: 5px;
+    }
+}

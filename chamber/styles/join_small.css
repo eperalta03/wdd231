@@ -1,0 +1,348 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+/*------ HEADER ------*/
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
+    background-color: #415A77;
+    color: white;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+header span {
+    font-size: 1.3rem;
+    color: black;
+    margin-bottom: 3px;
+    color: white;
+    margin-left: 5px;
+}
+
+/*------ HAMBURGER ------*/
+
+.hamburger {
+    cursor: pointer;
+    border: none;
+    color: #1B263B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #778DA9;
+}
+
+.hamburger::after {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::after {
+    content: "\00D7";
+    font-size: 2rem;
+}
+
+/*------ NAVIGATION ------*/
+
+.navigation {
+    display: none;
+    background-color: #E0E1DD;
+}
+
+.navigation.show {
+  display: block;
+}
+
+
+.navigation ul {
+    list-style-type: none;
+    margin: 3px 0 8px;
+    padding: 0;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 2px 0;
+    text-align: start;
+    font-size: 1rem;
+    padding: .8rem;
+}
+
+.navigation.show a{
+    border-bottom: #778DA9 .5px solid;
+}
+
+.navigation li.current {
+    border-bottom: #1B263B 3px solid;
+}
+
+.navigation a:hover{
+    background-color: #778DA9;
+}
+
+/*------ BANNER ------*/
+
+.hero {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero button {
+    position: absolute;
+    font-size: 1.2rem;
+    bottom: 10%;   
+    right: 10%;     
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgba(65, 90, 119, .9);
+    border: 1px black solid;
+    color: white;
+}
+
+.hero button:hover {
+    background-color: #E0E1DD;
+    color: black;
+}
+
+/*------ MAIN ------*/
+
+h1{
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+}
+/*------ FORM ------*/
+form {
+    margin: 1rem 10px;
+    border-radius: 6px;
+    padding: .5rem;
+    background-color: rgba(224, 225, 221, .6);
+}
+
+fieldset {
+    border: #778DA9 2px solid;
+    padding: 8px;
+    margin: 15px;
+}
+
+legend {
+    color: #1B263B;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+}
+
+label{
+    display: block;
+    padding: 8px;
+    color: black;
+    font-size: 1rem;
+}
+
+input[type ="text"], input[type ="email"], input[type ="tel"], select, textarea{
+    display: block;
+    margin-top: 3px;
+    border-radius: 5px;
+    width: 80%;
+    padding: .75rem;
+    border: #778DA9 1.2px solid;
+    border-left: #778DA9 4px solid;
+}
+
+input[type = "submit"] {
+    padding: 1rem;
+    background-image: linear-gradient(#415A77, #1B263B);
+    color: white;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type = "submit"]:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+/*------ MEMBERSHIPS ------*/
+#memberships {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+#memberships h2 {
+    margin-bottom: 0;
+}
+
+.card{
+    background-color: rgba(119, 141, 169, .9);
+    text-align: center;
+    padding: 2rem;
+    margin: 10px;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    opacity: 0;          
+    transform: translateY(20px);
+    animation: fadeSlideIn 2s ease-out forwards; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+}
+
+@keyframes fadeSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.8rem 1.2rem;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: #415A77;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #1B263B;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/*------ DIALOG ------*/
+dialog button {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    padding: .5rem 1rem;
+    border: none;
+    background-color: #E0E1DD;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+dialog button:hover {
+    background-color: rgb(119, 141, 169, .5);
+}
+
+dialog {
+    background-color: #E0E1DD;
+    border: #415A77 3px solid;
+    border-radius: 5px;
+    padding: 1.5rem;
+    width: 60%;
+}
+
+dialog p, ul{
+    font-size: 1.2rem;
+}
+
+::backdrop {
+  background-color: rgb(0 0 0 / 50%);
+}
+
+/*------ THANKYOU PAGE ------*/
+.details {
+    background-color: rgba(119, 141, 169, .7);
+    margin: 10px;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 80%;
+    border: #1B263B 1.5px solid;
+}
+
+.details p{
+    margin-left: 10px;
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    
+}
+/*------ FOOTER ------*/
+
+footer {
+    background-color: #415A77;
+    color: white;
+    padding: 1rem;
+}
+
+.media {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media img {
+    width: 44px;
+    height: 44px;
+    margin: 5px;
+}
+
+.media a:hover {
+    background-color:#778DA9;
+    border-radius: 8px;
+}
+.contact {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.contact p{
+    margin: 1px;
+}
+
+.author {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.author p{
+    margin: 3px;
+}
