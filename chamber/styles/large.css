@@ -12,6 +12,15 @@
         
     }
 
+    .navigation li.current {
+        border-bottom: #1B263B 3px solid;
+        text-decoration: none;
+    }
+
+    .navigation.show a {
+        border: none;
+    }
+    
     .navigation ul{
         display: flex;
     }

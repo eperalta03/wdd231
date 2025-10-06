@@ -1,0 +1,20 @@
+@media only screen and (min-width: 641px){
+    .card {
+        grid-template-areas: 
+        "image name"
+        "image description"
+        "image address"
+        "button button";
+    }
+
+    .card figure {
+        margin-left: 0;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+
+    .card figure:hover {
+        transform: scale(1.1);
+        box-shadow: 0 5px 15px black;
+    }
+}

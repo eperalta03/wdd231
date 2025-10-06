@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "name": "Cristo de las Noas",
+      "address": "Cerro de las Noas, Torreón, Coahuila, Mexico",
+      "description": "One of Torreón’s most iconic landmarks, offering a panoramic view of the city and featuring a well-known religious sanctuary visited by tourists and locals alike.",
+      "image": "images/cristo_de_las_noas.webp"
+    },
+    {
+      "name": "Canal de la Perla",
+      "address": "Downtown Torreón, Coahuila, Mexico",
+      "description": "A restored underground canal that now serves as a cultural space hosting art exhibitions and local events.",
+      "image": "images/canal_de_la_perla.webp"
+    },
+    {
+      "name": "Arocena Museum",
+      "address": "Cepeda Street 354 South, Downtown, Torreón, Coahuila, Mexico",
+      "description": "A museum featuring an outstanding collection of European, Mexican, and regional art, as well as temporary exhibitions and cultural activities.",
+      "image": "images/arocena_museum.webp"
+    },
+    {
+      "name": "Venustiano Carranza Forest",
+      "address": "Juárez Ave. and Colón Blvd., Torreón, Coahuila, Mexico",
+      "description": "A green oasis in the heart of Torreón, perfect for walking, exercising, and enjoying outdoor family activities.",
+      "image": "images/venustiano_carranza_forest.webp"
+    },
+    {
+      "name": "TSM Corona Stadium",
+      "address": "Periférico Blvd. #200, Ejido El Águila, Torreón, Coahuila, Mexico",
+      "description": "A modern sports complex and home of the Santos Laguna soccer team, also hosting concerts and major events.",
+      "image": "images/tsm_corona_stadium.webp"
+    },
+    {
+      "name": "Plaza Mayor",
+      "address": "Juárez Ave. and Colón Blvd., Downtown, Torreón, Coahuila, Mexico",
+      "description": "The city’s civic and cultural center, where festivals, fairs, and local celebrations take place; surrounded by modern buildings and public art.",
+      "image": "images/plaza_mayor.webp"
+    },
+    {
+      "name": "Zaragoza Alameda",
+      "address": "Juárez Ave. and Treviño Street, Downtown, Torreón, Coahuila, Mexico",
+      "description": "A historic park with gardens, gazebos, and recreation areas, serving as a traditional gathering spot for families and visitors.",
+      "image": "images/zaragoza_alameda.webp"
+    },
+    {
+      "name": "Torreón Cable Car",
+      "address": "Cable Car Station, Paseo Morelos, Torreón, Coahuila, Mexico",
+      "description": "A tourist cable car connecting downtown Torreón with Cristo de las Noas, offering spectacular city views.",
+      "image": "images/torreon_cable_car.webp"
+    }
+  ]
+}

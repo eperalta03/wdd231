@@ -16,7 +16,14 @@
         display: flex;
     }
 
+    .navigation li.current {
+        border-bottom: #1B263B 3px solid;
+        text-decoration: none;
+    }
 
+    .navigation.show a {
+        border: none;
+    }
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
