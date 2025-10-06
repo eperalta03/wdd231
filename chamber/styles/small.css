@@ -121,6 +121,9 @@ header span {
     color: black;
 }
 
+h1 {
+    margin-left: 10px;
+}
 /*------ GRID/LIST ------*/
 .menu {
 	text-align: center;
