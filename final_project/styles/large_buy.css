@@ -1,0 +1,36 @@
+@media only screen and (min-width: 769px){
+    header, main, nav, footer {
+        margin: 0 auto;
+    }
+    
+    header {
+        grid-template-columns: 24px auto auto;
+    }
+
+    nav{
+        display: block;
+        margin-right: 25px;
+    }
+
+    nav ul{
+        display: flex;
+    }
+
+   
+    .current {
+        border-bottom: 3px solid white;
+    }
+
+    .current:hover {
+        border-bottom: #C0392B 3px solid;
+    }
+
+
+    .hamburger {
+        display: none;
+    }
+
+    input[type ="text"], input[type ="email"], input[type ="tel"], input[type= "number"], select, textarea {
+        width: 36%;
+    }
+}

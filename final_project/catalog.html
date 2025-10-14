@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="My Bookstore - Final Project WDD231" />
+    <meta name="description" content="My Bookstore Catalog Page - Final Project WDD231" />
     <meta name="author" content="Eduardo Peralta" />
-    <title>My Bookstore</title>
+    <title>Catalog - My Bookstore</title>
     <link rel="icon" href="images/books-lightbulb.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta property="og:description" content="Discover a world of stories at My Bookstore — explore new releases, timeless classics, and personalized recommendations.">
-    <meta property="og:title" content="My Bookstore">
+    <meta property="og:title" content="Catalog - My Bookstore">
     <meta property="og:image" content="https://www.flaticon.com/free-icon/book-stack_3389081?term=book&related_id=3389081">
-    <meta property="og:url" content="https://eperalta03.github.io/wdd231/final_project/index.html">
+    <meta property="og:url" content="https://eperalta03.github.io/wdd231/final_project/catalog.html">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/small_index.css">
-    <link rel="stylesheet" href="styles/large_index.css">
-    <script src="scripts/index.js" defer></script>
+    <link rel="stylesheet" href="styles/small_catalog.css">
+    <link rel="stylesheet" href="styles/large_catalog.css">
+    <script src="scripts/catalog.js" defer></script>
 </head>
 <body>
     <header>
@@ -26,26 +26,23 @@
         <button id="ham-btn" class="hamburger"></button>
         <nav id="nav">
             <ul>
-                <li class="current"><a href="index.html">Home</a></li>
-                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="catalog.html">Catalog</a></li>
                 <li><a href="buy.html">Buy</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="hero">
-            <picture>
-                <source srcset="images/banner.webp" media="(min-width: 1200px)" loading="lazy">
-                <source srcset="images/banner_small.webp" media="(max-width: 650px)" loading="lazy">
-                <img src="images/banner.webp" alt="Banner" loading="lazy">
-            </picture>
-            <h1>Welcome to my bookstore</h1>
-            <p>Discover, read, and be inspired — your next favorite book is waiting.</p>
-            <a href="catalog.html"><button>View Catalog</button></a>
-        </section>
-        <h2>Best Sellers</h2>
-        <section class="bestsell" id="best-sellers"></section>
-        <dialog id="bestsell_info"></dialog>
+        <h1>Catalog</h1>
+        <div class="buttons">
+            <button id="all">All</button>
+            <button id="classic">Classic</button>
+            <button id="fantasy">Fantasy</button>
+            <button id="romance">Romance</button>
+            <button id="fiction">Fiction</button>
+        </div>
+        <section id="books_container" class="books"></section>
+        <dialog id="books_info"></dialog>
     </main>
     <footer>
         <section class="media">

@@ -24,4 +24,4 @@ document.querySelector("#details").innerHTML = `
 <p><strong>Email: </strong>${myInfo.get("email")}</p>
 <p><strong>Phone Number: </strong>${myInfo.get("phone")}</p>
 <p><strong>Business Name: </strong>${myInfo.get("businessName")}</p>
-<p><strong>Submit Date: </strong>${myInfo.get("timestamp")}</p>`
+<p><strong>Submit Date: </strong>${myInfo.get("timestamp")}</p>`;
