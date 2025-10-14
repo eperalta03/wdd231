@@ -45,5 +45,6 @@
     .hero button {
         bottom: 25%;   
         left: 10%;
+        padding: 1rem;
     }
 }
