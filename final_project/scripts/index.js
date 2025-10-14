@@ -14,13 +14,11 @@ navButtom.addEventListener("click", () => {
 
 const cards = document.getElementById("best-sellers")
 
-
 function GetBestSellers(books) {
     return books.filter(book => 
         book.bestseller === true
     );
 }
-
 
 function GetRandomBooks(books, n) {
     const copy = [...books]; 

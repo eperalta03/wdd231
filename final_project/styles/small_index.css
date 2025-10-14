@@ -159,9 +159,17 @@ nav a:hover{
 }
 
 .hero button:hover {
-    color:#C0392B;
     background-color: rgba(255, 255, 255, .9);
     transform: scale(1.1);
+}
+
+.hero a{
+    color: white;
+    text-decoration: none;
+}
+
+.hero a:hover{
+    color: #C0392B;
 }
 /*------ MAIN ------*/
 
